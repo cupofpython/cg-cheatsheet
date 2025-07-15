@@ -10,7 +10,7 @@
     <!-- Start entry in the cheatsheet -->
     <tr>
         <td> <!-- Description -->
-        Images diff: compare SBOMs of two Chainguard containers and generates list of pcakges that have been added/removed. Scans both images and uses itemized CVEs output to create list of vulnerabilities added/remvoved. 
+        Images diff: compare SBOMs of two Chainguard containers and generates list of packages that have been added/removed. Scans both images and uses itemized CVEs output to create list of vulnerabilities added/removed. 
         </td>
         <td> <!-- Copy paste command -->
             <pre><code class="language-bash">chainctl images diff cgr.dev/chainguard/go:latest cgr.dev/chainguard/go:latest-dev | jq
