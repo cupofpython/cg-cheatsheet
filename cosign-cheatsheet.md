@@ -27,4 +27,23 @@
         </td>
     </tr>
     <!-- End entry in the cheatsheet -->
+        <!-- Start entry in the cheatsheet -->
+    <tr>
+        <td> <!-- Description -->
+        Check a signature
+        </td>
+        <td> <!-- Copy paste command -->
+            <pre><code class="language-bash">ccosign verify \
+            --certificate-oidc-issuer=https://token.actions.githubusercontent.com \
+            --certificate-identity=https://github.com/chainguard-images/images/.github/workflows/release.yaml@refs/heads/main \
+            cgr.dev/chainguard/redis@sha256:e1f9b716ee5318277060cb6951775aee2bed6733eb93f4a5231945b5f6772727 | jq
+            </code></pre>
+        </td>
+        <td> <!-- Tags -->
+            <ul>
+                <li></li>
+            </ul>
+        </td>
+    </tr>
+    <!-- End entry in the cheatsheet -->
 </table>

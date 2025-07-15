@@ -61,4 +61,31 @@
         </td>
     </tr>
     <!-- End entry in the cheatsheet -->
+        <!-- Start entry in the cheatsheet -->
+    <tr>
+        <td> <!-- Description -->
+        Fetch tag history of an image
+        </td>
+        <td> <!-- Copy paste command -->
+            <pre><code class="language-bash">curl -H "Authorization: Bearer $tok" \
+            https://cgr.dev/v2/chainguard/python/_chainguard/history/latest | jq
+            </code></pre>
+        </td>
+        <td> <!-- Tags -->
+            <ul>
+                <li>N/A</li>
+            </ul>
+        </td>
+        <td> <!-- Notes -->
+            <ul>
+                <li>Obtaining registry token is required for this</li>
+            </ul>
+        </td>
+        <td> <!-- Use Cases -->
+            <ul>
+                <li>Used to get image digests from previous builds, point to specific builds in Dockerfiles</li>
+            </ul>
+        </td>
+    </tr>
+    <!-- End entry in the cheatsheet -->
 </table>
