@@ -3,7 +3,7 @@
     <tr>
         <th>Action</th>
         <th>Example Command</th>
-        <th>Tags</th>
+        <th>Flags</th>
         <th>Notes</th>
         <th>Use Cases</th>
     </tr>
@@ -16,7 +16,7 @@
             <pre><code class="language-bash">docker run -it --entrypoint bash example-php-image
             </code></pre>
         </td>
-        <td> <!-- Tags -->
+        <td> <!-- Flags -->
             <ul>
                 <li>N/A</li>
             </ul>
@@ -38,7 +38,7 @@
             && cdebug exec -it nginx-container
             </code></pre>
         </td>
-        <td> <!-- Tags -->
+        <td> <!-- Flags -->
             <ul>
                 <li>N/A</li>
             </ul>

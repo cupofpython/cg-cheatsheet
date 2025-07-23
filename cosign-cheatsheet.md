@@ -3,7 +3,7 @@
     <tr>
         <th>Action</th>
         <th>Example Command</th>
-        <th>Tags</th>
+        <th>Flags</th>
         <th>Notes</th>
         <th>Use Cases</th>
     </tr>
@@ -19,7 +19,7 @@
             cgr.dev/chainguard/php | jq -r .payload | base64 -d | jq .predicate
             </code></pre>
         </td>
-        <td> <!-- Tags -->
+        <td> <!-- Flags -->
             <ul>
                 <li>platform: Architecture</li>
                 <li>predicate: Document to download, ex. SBOM, SLSA 1.0 provenance etc.</li>
@@ -39,7 +39,7 @@
             cgr.dev/chainguard/redis@sha256:e1f9b716ee5318277060cb6951775aee2bed6733eb93f4a5231945b5f6772727 | jq
             </code></pre>
         </td>
-        <td> <!-- Tags -->
+        <td> <!-- Flags -->
             <ul>
                 <li></li>
             </ul>

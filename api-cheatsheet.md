@@ -3,7 +3,7 @@
     <tr>
         <th>Action</th>
         <th>Example Command</th>
-        <th>Tags</th>
+        <th>Flags</th>
         <th>Notes</th>
         <th>Use Cases </th>
     </tr>
@@ -16,7 +16,7 @@
             <pre><code class="language-bash">tok=$(curl "https://cgr.dev/token?scope=repository:chainguard/python:pull" | jq -r .token)
             </code></pre>
         </td>
-        <td> <!-- Tags -->
+        <td> <!-- Flags -->
             <ul>
                 <li>N/A</li>
             </ul>
@@ -44,7 +44,7 @@
             | jq -r .token)
             </code></pre>
         </td>
-        <td> <!-- Tags -->
+        <td> <!-- Flags -->
             <ul>
                 <li>N/A</li>
             </ul>
@@ -71,7 +71,7 @@
             https://cgr.dev/v2/chainguard/python/_chainguard/history/latest | jq
             </code></pre>
         </td>
-        <td> <!-- Tags -->
+        <td> <!-- Flags -->
             <ul>
                 <li>N/A</li>
             </ul>

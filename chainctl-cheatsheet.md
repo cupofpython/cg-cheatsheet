@@ -3,7 +3,7 @@
     <tr>
         <th>Action</th>
         <th>Example Command</th>
-        <th>Tags</th>
+        <th>Flags</th>
         <th>Notes</th>
         <th>Use Cases </th>
     </tr>
@@ -16,7 +16,7 @@
             <pre><code class="language-bash">chainctl images diff cgr.dev/chainguard/go:latest cgr.dev/chainguard/go:latest-dev | jq
             </code></pre>
         </td>
-        <td> <!-- Tags -->
+        <td> <!-- Flags -->
             <ul>
                 <li>N/A</li>
             </ul>

@@ -42,7 +42,7 @@
             <pre><code class="language-bash">nami images compare golang cgr.dev/chainguard/go
             </code></pre>
         </td>
-        <td> <!-- Tags -->
+        <td> <!-- Flags -->
             <ul>
                 <li>N/A</li>
             </ul>
@@ -68,7 +68,7 @@
             <pre><code class="language-bash">nami images search jdk
             </code></pre>
         </td>
-        <td> <!-- Tags -->
+        <td> <!-- Flags -->
             <ul>
                 <li>N/A</li>
             </ul>
@@ -94,7 +94,7 @@
             <pre><code class="language-bash">nami images compare golang cgr.dev/chainguard/go
             </code></pre>
         </td>
-        <td> <!-- Tags -->
+        <td> <!-- Flags -->
             <ul>
                 <li>N/A</li>
             </ul>
@@ -120,7 +120,7 @@
             <pre><code class="language-bash">nami images grade golang
             </code></pre>
         </td>
-        <td> <!-- Tags -->
+        <td> <!-- Flags -->
             <ul>
                 <li>N/A</li>
             </ul>
