@@ -33,7 +33,7 @@
         Check a signature
         </td>
         <td> <!-- Copy paste command -->
-            <pre><code class="language-bash">ccosign verify \
+            <pre><code class="language-bash">cosign verify \
             --certificate-oidc-issuer=https://token.actions.githubusercontent.com \
             --certificate-identity=https://github.com/chainguard-images/images/.github/workflows/release.yaml@refs/heads/main \
             cgr.dev/chainguard/redis@sha256:e1f9b716ee5318277060cb6951775aee2bed6733eb93f4a5231945b5f6772727 | jq
