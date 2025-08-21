@@ -97,4 +97,30 @@
         </td>
     </tr>
     <!-- End entry in the cheatsheet -->
+    <!-- Start entry in the cheatsheet -->
+    <tr>
+        <td> <!-- Description -->
+        Create a GitHub actions assumable identity
+        </td>
+        <td> <!-- Copy paste command -->
+            <pre><code class="language-bash">chainctl iam identities create github {ID_NAME} --github-repo={ORG/REPO} --role={ROLE}
+            </code></pre>
+        </td>
+        <td> <!-- Flags -->
+            <ul>
+                <li>--github-repo: Repository in GitHub where the action runs from</li>
+                <li>--role: Role for the identity, default is null</li>
+            </ul>
+        </td>
+        <td> <!-- Notes -->
+            <ul>
+            </ul>
+        </td>
+        <td> <!-- Use Cases -->
+            <ul>
+                <li>Used when accessing image information such as digests for digestabot in GitHub actions</li>
+            </ul>
+        </td>
+    </tr>
+    <!-- End entry in the cheatsheet -->
 </table>
